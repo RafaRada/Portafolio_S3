@@ -69,7 +69,6 @@ form {
     padding: 100px;
     margin: 200px;
     gap: 10px;
-    
 }
 
 .galeria {
@@ -97,30 +96,28 @@ form {
 
 .proyectos {
     padding: 100px;
-    margin: 25px;
+    margin: 100px;
     font-size: 1rem;
     display: flex;
     flex-wrap: wrap;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 100px;
-    width: 100%;
+    gap: 200px;
+    width: 80%;
     height: auto;
-    
 }
 
 .c {
     border: solid 2px color darkgray;
     border-radius: 8px;
     box-shadow: 5px, 5px, 10px;
-    width: 1000px;
+    width: 1000;
     height: auto;
-    padding: 30px;
+    padding: 80px;
     background-color: darkgray;
     box-shadow: 10px 10px 20px;
     color: black;
-    justify-content: center;
-    align-items: center ;
+    
 }
 
 .c:hover {
@@ -138,7 +135,7 @@ form {
     }
     
     .proyectos {
-    display: grid;
+        display: grid;
         grid-template-columns: 1fr; 
         width: 100%;
     }
@@ -156,7 +153,7 @@ form {
     .proyectos {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 80px;
+        gap: 200px;
     }
 
     .galeria {
@@ -171,4 +168,15 @@ form {
     .galeria {
         grid-template-columns: repeat(3, 1fr);
     }
+}
+
+#btnCambiarTexto {
+    width: 10%;
+    height: auto;
+
+}
+
+#btnToggle {
+    width: 12%;
+    height: auto;
 }
